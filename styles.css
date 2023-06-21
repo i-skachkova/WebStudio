@@ -8,23 +8,17 @@ header{
     padding: 0 15px;
     outline: dashed red;
 }
-.web{
+.logo{
     color: #2196F3;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     font-style: normal;
     line-height: 31px;
     padding-top: 24px;
 }
-.studio, .studio2{
+.studio{
     color: #000;
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 31px;
-    padding-top: 24px;
 }
 .studio2{
     color: white;
