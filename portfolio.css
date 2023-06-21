@@ -1,0 +1,136 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+header{
+    height: auto;
+    border-bottom: 1px solid #ece;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: dashed red;
+}
+.web{
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 31px;
+    padding-top: 24px;
+}
+.studio, .studio2{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 24px;
+}
+.studio2{
+    color: white;
+}
+.navigationa{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+}
+.contacts .navigationa{
+    color: #757575;
+}
+.navigationa:hover{
+    color: #2196F3;
+}
+.nav-button{
+    width: auto;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+}
+.nav-button:focus, .nav-button:hover{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.project-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+
+    margin-top: 20px;
+}
+.project-type{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+    margin-top: 4px;
+}
+/**/
+
+footer{
+    background: #2F303A;
+}
+footer .logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    
+    margin-top: 300px;
+}
+footer address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+    margin-top: 20px;
+}
+footer .navigationa{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    margin-top: 9px;
+}
