@@ -1,24 +1,3 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-ul{
-    padding-left: 0;
-    list-style: none;
-    margin: 0;
-}
-body{
-    margin: 0;
-}
 header{
     height: auto;
     border-bottom: 1px solid #ece;
@@ -31,7 +10,7 @@ header{
 }
 .web{
     color: #2196F3;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
     font-style: normal;
@@ -40,10 +19,11 @@ header{
 }
 .studio, .studio2{
     color: #000;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
     font-style: normal;
+    line-height: 31px;
     padding-top: 24px;
 }
 .studio2{
@@ -54,6 +34,8 @@ header{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #212121;
 }
 .contacts .navigationa{
@@ -92,7 +74,9 @@ header{
     background-color: #188CE8;
 } 
 .tech{
-    list-style: none;
+    padding-top: 94px;
+}
+.tech-title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -100,6 +84,7 @@ header{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #212121;
 }
 .tech-p{
     font-weight: 400;
@@ -111,7 +96,25 @@ header{
 
     margin-top: 10px;
 }
-.work-title, .workers-title{
+.work{
+    padding-top: 118px;
+    padding-bottom: 94px;
+}
+.work-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.workers{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.workers-title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -161,7 +164,7 @@ footer .logo{
 footer address{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
