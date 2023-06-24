@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto';
+}
 header{
     height: auto;
     border-bottom: 1px solid #ece;
@@ -13,7 +16,6 @@ header{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
-    font-style: normal;
     line-height: 31px;
     padding-top: 24px;
 }
@@ -24,8 +26,6 @@ header{
     color: white;
 }
 .navigationa{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -41,7 +41,6 @@ header{
 .hero{
     background-color: #2F303A;
     letter-spacing: 0.06em;
-    font-family: 'Roboto';
 } 
 .hero-title{
     color: white;
@@ -71,8 +70,6 @@ header{
     padding-top: 94px;
 }
 .tech-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -95,8 +92,6 @@ header{
     padding-bottom: 94px;
 }
 .work-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -109,8 +104,6 @@ header{
     padding-bottom: 94px;
 }
 .workers-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -119,8 +112,6 @@ header{
     color: #212121;
 }
 .workers-names{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -131,8 +122,6 @@ header{
     margin-top: 30px;
 }
 .workers-job{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -147,7 +136,6 @@ footer{
 }
 footer .logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -156,8 +144,6 @@ footer .logo{
     margin-top: 300px;
 }
 footer address{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -167,8 +153,6 @@ footer address{
     margin-top: 20px;
 }
 footer .navigationa{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
