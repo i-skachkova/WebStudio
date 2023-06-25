@@ -133,6 +133,7 @@ header{
 }
 footer{
     background: #2F303A;
+    padding-top: 60px;
 }
 footer .logo{
     font-family: 'Raleway';
