@@ -4,6 +4,14 @@ body{
 header{
     height: auto;
     border-bottom: 1px solid #ece;
+    padding: 24px 0 25px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+}
+header .container ul{
+    display: flex;
 }
 .container{
     width: 1200px;
@@ -17,10 +25,10 @@ header{
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
-    padding-top: 24px;
 }
 .studio{
     color: #000;
+    margin-right: 43px;
 }
 .studio2{
     color: white;
@@ -31,9 +39,14 @@ header{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+
+    padding-left: 50px;
 }
 .contacts .navigationa{
     color: #757575;
+}
+.contacts {
+    margin-left: 294px;
 }
 .navigationa:hover{
     color: #2196F3;
@@ -42,6 +55,12 @@ header{
     background-color: #2F303A;
     letter-spacing: 0.06em;
 } 
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .hero-title{
     color: white;
     text-transform: uppercase;
@@ -49,7 +68,7 @@ header{
     font-size: 44px;
     text-align: center;
     letter-spacing: 0.06em;
-    padding-top: 200px;
+    margin: 200px 252px 0;
 }
 .hero-button{
     width: 216px;
@@ -60,7 +79,8 @@ header{
     color: white;
     font-weight: 700;
     font-size: 16px;
-    margin-top: 230px;
+    margin-top: 30px;
+    margin-bottom: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 } 
 .hero-button:hover{
@@ -68,6 +88,10 @@ header{
 } 
 .tech{
     padding-top: 94px;
+}
+.tech .container ul{
+    display: flex;
+    justify-content: space-between;
 }
 .tech-title{
     font-weight: 700;
@@ -91,6 +115,10 @@ header{
     padding-top: 118px;
     padding-bottom: 94px;
 }
+.work .container ul{
+    display: flex;
+    justify-content: space-between;
+}
 .work-title{
     font-weight: 700;
     font-size: 36px;
@@ -98,10 +126,23 @@ header{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
+}
+.work-img{
+    width: 370px;
+    height: 294px; 
 }
 .workers{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.workers .container ul{
+    display: flex;
+    justify-content: space-between;
+}
+.workers-img{
+    width: 270px;
+    height: 260px;
 }
 .workers-title{
     font-weight: 700;
@@ -110,6 +151,7 @@ header{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 .workers-names{
     font-weight: 700;
@@ -135,14 +177,21 @@ footer{
     background: #2F303A;
     padding-top: 60px;
 }
+/* footer .container{
+    display: flex;
+    flex-direction: column;
+}
+footer .container ul{
+    display: flex;
+    flex-direction: column;
+} */
+/* Ну, типу це не має сенсу напевно))) */
 footer .logo{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    
-    margin-top: 300px;
 }
 footer address{
     font-weight: 400;
@@ -150,15 +199,13 @@ footer address{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-
     margin-top: 20px;
 }
-footer .navigationa{
+.navigationf{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
     margin-top: 9px;
 }

@@ -4,6 +4,14 @@ body{
 header{
     height: auto;
     border-bottom: 1px solid #ece;
+    padding: 24px 0 25px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+}
+header .container ul{
+    display: flex;
 }
 .container{
     width: 1200px;
@@ -17,10 +25,10 @@ header{
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
-    padding-top: 24px;
 }
 .studio{
     color: #000;
+    margin-right: 43px;
 }
 .studio2{
     color: white;
@@ -31,9 +39,14 @@ header{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+
+    padding-left: 50px;
 }
 .contacts .navigationa{
     color: #757575;
+}
+.contacts {
+    margin-left: 294px;
 }
 .navigationa:hover{
     color: #2196F3;
@@ -41,6 +54,10 @@ header{
 .nav{
     padding-top: 94px;
     padding-bottom: 50px;
+}
+.nav .container ul{
+    display: flex;
+    justify-content: center;
 }
 .nav-button{
     width: auto;
@@ -56,6 +73,8 @@ header{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+
+    margin-right: 8px;
 }
 .nav-button:focus, .nav-button:hover{
     background: #2196F3;
@@ -63,9 +82,15 @@ header{
     border-radius: 4px;
 
     color: #FFFFFF;
+    cursor: pointer;
 }
 .projects{
     padding-bottom: 94px;
+}
+.projects .container ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .project-title{
     font-weight: 700;
@@ -84,6 +109,7 @@ header{
     color: #757575;
 
     margin-top: 4px;
+    margin-bottom: 50px;
 }
 /**/
 
@@ -109,7 +135,7 @@ footer address{
 
     margin-top: 20px;
 }
-footer .navigationa{
+.navigationf{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
