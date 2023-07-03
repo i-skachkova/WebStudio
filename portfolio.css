@@ -28,7 +28,7 @@ header .container ul{
 }
 .studio{
     color: #000;
-    margin-right: 43px;
+    margin-right: 93px;
 }
 .studio2{
     color: white;
@@ -39,14 +39,15 @@ header .container ul{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-
-    padding-left: 50px;
 }
 .contacts .navigationa{
     color: #757575;
 }
 .contacts {
-    margin-left: 294px;
+    margin-left: 344px;
+}
+.contacts ul, .menu ul{
+    gap: 50px;
 }
 .navigationa:hover{
     color: #2196F3;
@@ -116,6 +117,7 @@ header .container ul{
 footer{
     background: #2F303A;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 footer .logo{
     font-family: 'Raleway';

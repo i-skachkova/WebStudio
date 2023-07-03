@@ -28,7 +28,7 @@ header .container ul{
 }
 .studio{
     color: #000;
-    margin-right: 43px;
+    margin-right: 93px;
 }
 .studio2{
     color: white;
@@ -39,14 +39,15 @@ header .container ul{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-
-    padding-left: 50px;
 }
 .contacts .navigationa{
     color: #757575;
 }
 .contacts {
-    margin-left: 294px;
+    margin-left: 344px;
+}
+.contacts ul, .menu ul{
+    gap: 50px;
 }
 .navigationa:hover{
     color: #2196F3;
@@ -60,6 +61,7 @@ header .container ul{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    padding: 200px 252px;
 }
 .hero-title{
     color: white;
@@ -68,7 +70,6 @@ header .container ul{
     font-size: 44px;
     text-align: center;
     letter-spacing: 0.06em;
-    margin: 200px 252px 0;
 }
 .hero-button{
     width: 216px;
@@ -80,7 +81,6 @@ header .container ul{
     font-weight: 700;
     font-size: 16px;
     margin-top: 30px;
-    margin-bottom: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 } 
 .hero-button:hover{
@@ -136,6 +136,9 @@ header .container ul{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.workers .container{
+    padding-bottom: 30px;
+}
 .workers .container ul{
     display: flex;
     justify-content: space-between;
@@ -176,6 +179,7 @@ header .container ul{
 footer{
     background: #2F303A;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 /* footer .container{
     display: flex;
