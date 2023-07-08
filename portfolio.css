@@ -9,6 +9,7 @@ header{
 header .container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 header .container ul{
     display: flex;
@@ -43,7 +44,7 @@ header .container ul{
 .contacts .navigationa{
     color: #757575;
 }
-.contacts {
+.contacts{
     margin-left: 344px;
 }
 .contacts ul, .menu ul{
@@ -59,6 +60,7 @@ header .container ul{
 .nav .container ul{
     display: flex;
     justify-content: center;
+    gap: 8px;
 }
 .nav-button{
     width: auto;
@@ -75,7 +77,6 @@ header .container ul{
     letter-spacing: 0.03em;
     color: #212121;
 
-    margin-right: 8px;
 }
 .nav-button:focus, .nav-button:hover{
     background: #2196F3;
@@ -92,6 +93,10 @@ header .container ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 30px 0;
+}
+.card-text{
+    padding: 20px 24px;
 }
 .project-title{
     font-weight: 700;
@@ -99,8 +104,6 @@ header .container ul{
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
-
-    margin-top: 20px;
 }
 .project-type{
     font-weight: 400;
@@ -110,13 +113,12 @@ header .container ul{
     color: #757575;
 
     margin-top: 4px;
-    margin-bottom: 50px;
 }
 /**/
 
 footer{
     background: #2F303A;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 60px;
 }
 footer .logo{
@@ -129,20 +131,22 @@ footer .logo{
     margin-top: 300px;
 }
 footer address{
-    font-weight: 400;
+    color: #FFF;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    letter-spacing: 0.42px;
 
     margin-top: 20px;
 }
 .navigationf{
+    margin-top: 9px;
+}
+.navigationf a{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
-    margin-top: 9px;
 }
