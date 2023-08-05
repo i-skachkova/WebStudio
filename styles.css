@@ -11,14 +11,14 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-header .container ul{
+.menu-list{
     display: flex;
 }
 .container{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: dashed red;
+    /* outline: dashed red; */
 }
 .logo{
     color: #2196F3;
@@ -41,13 +41,14 @@ header .container ul{
     letter-spacing: 0.02em;
     color: #212121;
 }
-.contacts .navigationa{
+.contacts-list .navigationa{
     color: #757575;
 }
-.contacts {
+.contacts-list{
+    display: flex;
     margin-left: 344px;
 }
-.contacts ul, .menu ul{
+.menu-list, .contacts-list{
     gap: 50px;
 }
 .navigationa:hover{
@@ -90,7 +91,7 @@ header .container ul{
 .tech{
     padding-top: 94px;
 }
-.tech .container ul{
+.tech-list{
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -118,7 +119,7 @@ header .container ul{
     padding-top: 118px;
     padding-bottom: 94px;
 }
-.work .container ul{
+.work-list{
     display: flex;
     justify-content: space-between;
 }
@@ -138,13 +139,20 @@ header .container ul{
 .workers{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #F5F4FA;
 }
-.workers .container ul{
+.workers-list{
     display: flex;
     justify-content: space-between;
 }
 .workers-list li{
     padding-bottom: 30px;
+}
+.workers-list-item{
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
 }
 .workers-img{
     width: 270px;

@@ -11,14 +11,14 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-header .container ul{
+.navigation-list{
     display: flex;
 }
 .container{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: dashed red;
+    /* outline: dashed red; */
 }
 .logo{
     color: #2196F3;
@@ -47,7 +47,7 @@ header .container ul{
 .contacts{
     margin-left: 344px;
 }
-.contacts ul, .menu ul{
+.navigation-list, .contacts-list{
     gap: 50px;
 }
 .navigationa:hover{
@@ -57,7 +57,7 @@ header .container ul{
     padding-top: 94px;
     padding-bottom: 50px;
 }
-.nav .container ul{
+.nav-list{
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -89,7 +89,7 @@ header .container ul{
 .projects{
     padding-bottom: 94px;
 }
-.projects .container ul{
+.projects-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -97,6 +97,9 @@ header .container ul{
 }
 .card-text{
     padding: 20px 24px;
+}
+.projects-item{
+    border: 1px solid #EEE;
 }
 .project-title{
     font-weight: 700;
