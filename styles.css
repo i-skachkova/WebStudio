@@ -1,6 +1,15 @@
 body{
     font-family: 'Roboto';
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* outline: dashed red; */
+}
+
+
+/* header */
 header{
     height: auto;
     border-bottom: 1px solid #ece;
@@ -13,12 +22,6 @@ header .container{
 }
 .menu-list{
     display: flex;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    /* outline: dashed red; */
 }
 .logo{
     color: #2196F3;
@@ -40,13 +43,17 @@ header .container{
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 .contacts-list .navigationa{
     color: #757575;
 }
 .contacts-list{
     display: flex;
-    margin-left: 344px;
+    margin-left: auto;
 }
 .menu-list, .contacts-list{
     gap: 50px;
@@ -54,8 +61,14 @@ header .container{
 .navigationa:hover{
     color: #2196F3;
 }
+
+
+/* hero  */
 .hero{
-    background-color: #2F303A;
+    background-color: rgba(47, 48, 58, 0.40);
+    background-image: url(./images/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     letter-spacing: 0.06em;
 } 
 .hero .container{
@@ -88,6 +101,9 @@ header .container{
 .hero-button:hover{
     background-color: #188CE8;
 } 
+
+
+/* tech  */
 .tech{
     padding-top: 94px;
 }
@@ -95,6 +111,15 @@ header .container{
     display: flex;
     justify-content: space-between;
     gap: 30px;
+}
+.tech-img-container{
+    border-radius: 4px;
+    background: #F5F4FA;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .tech-title{
     font-weight: 700;
@@ -104,7 +129,7 @@ header .container{
     text-transform: uppercase;
     color: #212121;
 }
-.tech-p{
+.tech-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -115,6 +140,9 @@ header .container{
 
     margin-top: 10px;
 }
+
+
+/* work */
 .work{
     padding-top: 118px;
     padding-bottom: 94px;
@@ -136,6 +164,9 @@ header .container{
     width: 370px;
     height: 294px; 
 }
+
+
+/* workers  */
 .workers{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -187,20 +218,66 @@ header .container{
 
     margin-top: 10px;
 }
+.workers-social-networks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+
+    margin-top: 16px;
+}
+.workers-social-networks-item{
+    border-radius: 100%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+}
+.workers-social-networks-item:hover{
+    background-color: #2196F3;
+}
+
+
+
+/* clients */
+.clients .container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients-title{
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+.clients-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.clients-list-item{
+    width: 170px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+.clients-list-item:hover{
+    border: 1px solid #2196F3;
+}
+
+
+/* footer  */
 footer{
     background: #2F303A;
     padding-top: 50px;
     padding-bottom: 60px;
 }
-/* footer .container{
+.footer .container{
     display: flex;
-    flex-direction: column;
+    gap: 70px;
 }
-footer .container ul{
-    display: flex;
-    flex-direction: column;
-} */
-/* Ну, типу це не має сенсу напевно))) */
 footer .logo{
     font-family: 'Raleway';
     font-weight: 700;
@@ -226,4 +303,28 @@ footer address{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-social-networks-title{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-social-networks-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-social-networks-item{
+    border-radius: 100%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.10);
+}
+.footer-social-networks-item:hover{
+    background: #2196F3;
 }

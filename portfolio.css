@@ -1,6 +1,12 @@
 body{
     font-family: 'Roboto';
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* outline: dashed red; */
+}
 header{
     height: auto;
     border-bottom: 1px solid #ece;
@@ -14,12 +20,7 @@ header .container{
 .navigation-list{
     display: flex;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    /* outline: dashed red; */
-}
+
 .logo{
     color: #2196F3;
     font-family: 'Raleway', sans-serif;
@@ -41,11 +42,17 @@ header .container{
     letter-spacing: 0.02em;
     color: #212121;
 }
-.contacts .navigationa{
+.contacts-list{
+    display: flex;
+}
+.contacts-item .navigationa{
     color: #757575;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .contacts{
-    margin-left: 344px;
+    margin-left: auto;
 }
 .navigation-list, .contacts-list{
     gap: 50px;
@@ -53,6 +60,9 @@ header .container{
 .navigationa:hover{
     color: #2196F3;
 }
+
+
+/* nav  */
 .nav{
     padding-top: 94px;
     padding-bottom: 50px;
@@ -86,6 +96,9 @@ header .container{
     color: #FFFFFF;
     cursor: pointer;
 }
+
+
+/* projects  */
 .projects{
     padding-bottom: 94px;
 }
@@ -100,6 +113,9 @@ header .container{
 }
 .projects-item{
     border: 1px solid #EEE;
+}
+.projects-item:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .project-title{
     font-weight: 700;
@@ -117,12 +133,18 @@ header .container{
 
     margin-top: 4px;
 }
-/**/
+
+
+/*footer */
 
 footer{
     background: #2F303A;
     padding-top: 50px;
     padding-bottom: 60px;
+}
+.footer .container{
+    display: flex;
+    gap: 70px;
 }
 footer .logo{
     font-family: 'Raleway';
@@ -130,8 +152,6 @@ footer .logo{
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    
-    margin-top: 300px;
 }
 footer address{
     color: #FFF;
@@ -140,7 +160,6 @@ footer address{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
-
     margin-top: 20px;
 }
 .navigationf{
@@ -152,4 +171,29 @@ footer address{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-social-networks-title{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-social-networks-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-social-networks-item{
+    border-radius: 100%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.10);
+}
+.footer-social-networks-item:hover{
+    background: #2196F3;
 }
