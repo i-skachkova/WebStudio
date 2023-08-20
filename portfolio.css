@@ -15,7 +15,6 @@ header{
 header .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .navigation-list{
     display: flex;
@@ -51,7 +50,7 @@ header .container{
     align-items: center;
     gap: 10px;
 }
-.contacts{
+.contacts-list{
     margin-left: auto;
 }
 .navigation-list, .contacts-list{
@@ -173,7 +172,7 @@ footer address{
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-social-networks-title{
+/* .footer-social-networks-title{
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
@@ -196,4 +195,4 @@ footer address{
 }
 .footer-social-networks-item:hover{
     background: #2196F3;
-}
+} */
