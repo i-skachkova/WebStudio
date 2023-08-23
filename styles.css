@@ -66,7 +66,7 @@ header .container{
 /* hero  */
 .hero{
     background-color: rgba(47, 48, 58, 0.40);
-    background-image: url(./images/hero-img.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(./images/hero-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     letter-spacing: 0.06em;
