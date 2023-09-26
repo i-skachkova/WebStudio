@@ -41,6 +41,10 @@ header .container{
     letter-spacing: 0.02em;
     color: #212121;
 }
+.menu-list{
+    display: flex;
+    gap: 51px;
+}
 .contacts-list{
     display: flex;
 }
@@ -59,6 +63,19 @@ header .container{
 .navigationa:hover{
     color: #2196F3;
 }
+.header-icon{
+    max-width: 16px;
+    height: 12px;
+    fill: #757575;
+}
+.phone-icon{
+    max-width: 10px;
+    height: 16px;
+}
+.navigationa:hover .header-icon{
+    fill: #2196F3;
+}
+
 
 
 /* nav  */
@@ -173,7 +190,7 @@ footer address{
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* .footer-social-networks-title{
+.footer-social-networks-title{
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
@@ -196,4 +213,9 @@ footer address{
 }
 .footer-social-networks-item:hover{
     background: #2196F3;
-} */
+}
+.footer-socials{
+    width: 20px;
+    height: 20px;
+    fill: #FFF;
+}
