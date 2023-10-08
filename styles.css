@@ -58,7 +58,7 @@ header .container{
 .menu-list, .contacts-list{
     gap: 50px;
 }
-.navigationa:hover{
+.navigationa:hover, .navigationa:focus{
     color: #2196F3;
 }
 .header-icon{
@@ -70,7 +70,7 @@ header .container{
     max-width: 10px;
     height: 16px;
 }
-.navigationa:hover .header-icon{
+.navigationa:hover .header-icon, .navigationa:focus .header-icon{
     fill: #2196F3;
 }
 
@@ -110,7 +110,7 @@ header .container{
     margin-top: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 } 
-.hero-button:hover{
+.hero-button:hover, .hero-button:focus{
     background-color: #188CE8;
 }
 
@@ -253,10 +253,10 @@ header .container{
     height: 20px;
     fill: #AFB1B8;
 }
-.workers-social:hover .workers-svg{
+.workers-social:hover .workers-svg, .workers-social:focus .workers-svg{
     fill: #FFF;
 }
-.workers-social:hover{
+.workers-social:hover, .workers-social:focus{
     background-color: #2196F3;
 }
 
@@ -292,10 +292,10 @@ header .container{
     border-radius: 4px;
     border: 1px solid #AFB1B8;
 }
-.clients-list-item:hover .clients-logo{
+.clients-list-item:hover .clients-logo, .clients-list-item:focus .clients-logo{
     fill: #2196F3;
 }
-.clients-list-item:hover{
+.clients-list-item:hover, .clients-list-item:focus{
     border: 1px solid #2196F3;
 }
 
@@ -357,7 +357,7 @@ footer address{
     height: 44px;
     background: rgba(255, 255, 255, 0.10);
 }
-.footer-social-networks-item:hover{
+.footer-social-networks-item:hover, .footer-social-networks-item:focus{
     background: #2196F3;
 }
 .footer-socials{

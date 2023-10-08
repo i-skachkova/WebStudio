@@ -60,7 +60,7 @@ header .container{
 .navigation-list, .contacts-list{
     gap: 50px;
 }
-.navigationa:hover{
+.navigationa:hover, .navigationa:focus{
     color: #2196F3;
 }
 .header-icon{
@@ -72,7 +72,7 @@ header .container{
     max-width: 10px;
     height: 16px;
 }
-.navigationa:hover .header-icon{
+.navigationa:hover .header-icon, .navigationa:focus .header-icon{
     fill: #2196F3;
 }
 
@@ -131,7 +131,7 @@ header .container{
     border: 1px solid #EEE;
     flex-basis: calc((100% - (2*30px))/3);
 }
-.projects-item:hover{
+.projects-item:hover, .projects-item:focus{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .project-title{
@@ -211,7 +211,7 @@ footer address{
     height: 44px;
     background: rgba(255, 255, 255, 0.10);
 }
-.footer-social-networks-item:hover{
+.footer-social-networks-item:hover, .footer-social-networks-item:focus{
     background: #2196F3;
 }
 .footer-socials{
