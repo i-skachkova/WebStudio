@@ -25,10 +25,10 @@ header .container{
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
+    margin-right: 93px;
 }
 .studio{
     color: #000;
-    margin-right: 93px;
 }
 .studio2{
     color: white;
@@ -133,8 +133,16 @@ header .container{
     border: 1px solid #EEE;
     flex-basis: calc((100% - (2*30px))/3);
 }
-.projects-item:hover, .projects-item:focus{
+.project-link{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.projects-item:hover, .project-link:focus{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    outline: none;
 }
 .project-title{
     font-weight: 700;
@@ -206,7 +214,7 @@ footer address{
     align-items: center;
     gap: 10px;
 }
-.footer-social-networks-item{
+.footer-social-networks-item, .footer-social-networks-link:focus{
     border-radius: 100%;
     width: 44px;
     height: 44px;

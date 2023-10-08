@@ -5,7 +5,6 @@ body{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: dashed red; */
 }
 
 
@@ -29,10 +28,10 @@ header .container{
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
+    margin-right: 93px;
 }
 .studio{
     color: #000;
-    margin-right: 93px;
 }
 .studio2{
     color: white;
@@ -371,7 +370,7 @@ footer address{
     align-items: center;
     gap: 10px;
 }
-.footer-social-networks-item{
+.footer-social-networks-item, .footer-social-networks-link{
     border-radius: 100%;
     width: 44px;
     height: 44px;
