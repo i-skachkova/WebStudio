@@ -5,7 +5,6 @@ body{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: dashed red; */
 }
 header{
     height: auto;
@@ -62,6 +61,7 @@ header .container{
 }
 .navigationa:hover, .navigationa:focus{
     color: #2196F3;
+    outline: none;
 }
 .header-icon{
     max-width: 16px;
@@ -74,6 +74,7 @@ header .container{
 }
 .navigationa:hover .header-icon, .navigationa:focus .header-icon{
     fill: #2196F3;
+    outline: none;
 }
 
 
@@ -111,6 +112,7 @@ header .container{
 
     color: #FFFFFF;
     cursor: pointer;
+    outline: none;
 }
 
 
@@ -206,13 +208,21 @@ footer address{
 }
 .footer-social-networks-item{
     border-radius: 100%;
-    padding: 12px;
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.10);
 }
-.footer-social-networks-item:hover, .footer-social-networks-item:focus{
+.footer-social-networks-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+}
+.footer-social-networks-item:hover, .footer-social-networks-link:focus{
     background: #2196F3;
+    outline: none;
 }
 .footer-socials{
     width: 20px;

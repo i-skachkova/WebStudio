@@ -60,6 +60,7 @@ header .container{
 }
 .navigationa:hover, .navigationa:focus{
     color: #2196F3;
+    outline: none;
 }
 .header-icon{
     max-width: 16px;
@@ -72,6 +73,7 @@ header .container{
 }
 .navigationa:hover .header-icon, .navigationa:focus .header-icon{
     fill: #2196F3;
+    outline: none;
 }
 
 
@@ -112,6 +114,7 @@ header .container{
 } 
 .hero-button:hover, .hero-button:focus{
     background-color: #188CE8;
+    outline: none;
 }
 
 
@@ -244,7 +247,14 @@ header .container{
 }
 .workers-social{
     border-radius: 100%;
-    padding: 12px;
+    width: 44px;
+    height: 44px;
+}
+.workers-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
     width: 44px;
     height: 44px;
 }
@@ -253,11 +263,12 @@ header .container{
     height: 20px;
     fill: #AFB1B8;
 }
-.workers-social:hover .workers-svg, .workers-social:focus .workers-svg{
+.workers-social:hover .workers-svg, .workers-link:focus .workers-svg{
     fill: #FFF;
 }
-.workers-social:hover, .workers-social:focus{
+.workers-social:hover, .workers-link:focus{
     background-color: #2196F3;
+    outline: none;
 }
 
 
@@ -287,16 +298,26 @@ header .container{
     fill: #AFB1B8;
 }
 .clients-list-item{
-    width: 170px;
-    padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
 }
-.clients-list-item:hover .clients-logo, .clients-list-item:focus .clients-logo{
-    fill: #2196F3;
+.clients-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
 }
-.clients-list-item:hover, .clients-list-item:focus{
+.clients-list-item:hover, .clients-link:focus{
     border: 1px solid #2196F3;
+}
+.clients-list-item:hover .clients-logo, .clients-link:focus{ 
+    fill: #2196F3;
+    outline: none;
+}
+.clients-link:focus .clients-logo{
+    fill: #2196F3;
 }
 
 
@@ -352,13 +373,22 @@ footer address{
 }
 .footer-social-networks-item{
     border-radius: 100%;
-    padding: 12px;
     width: 44px;
     height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(255, 255, 255, 0.10);
 }
-.footer-social-networks-item:hover, .footer-social-networks-item:focus{
+.footer-social-networks-item:hover, .footer-social-networks-link:focus{
     background: #2196F3;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
 }
 .footer-socials{
     width: 20px;
