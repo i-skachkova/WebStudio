@@ -76,6 +76,22 @@ header .container{
     outline: none;
 }
 
+.active-page{
+    color: #2196F3;
+    position: relative;
+}
+.active-page::after{
+    content: '';
+    background-color: #2196F3;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    width: 48px;
+    position: absolute;
+    bottom: -33px;
+    left: -2px;
+}
+
 
 /* hero  */
 .hero{
