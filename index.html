@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -60,7 +61,7 @@
             <section class="tech">
                 <div class="container">
                     <ul class="tech-list">
-                        <li class="tech-item">
+                        <li class="tech-item" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="0">
                             <div class="tech-img-container">
                                 <svg class="tech-img">
                                     <use href="./images/symbol-defs.svg#icon-tech-svg1"></use>
@@ -69,7 +70,7 @@
                             <h3 class="tech-title">Увага до деталей</h3>
                             <p class="tech-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
-                        <li class="tech-item">
+                        <li class="tech-item" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="200">
                             <div class="tech-img-container">
                                 <svg class="tech-img">
                                     <use href="./images/symbol-defs.svg#icon-tech-svg2"></use>
@@ -78,7 +79,7 @@
                             <h3 class="tech-title">Пунктуальність</h3>
                             <p class="tech-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
-                        <li class="tech-item">
+                        <li class="tech-item" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="400">
                             <div class="tech-img-container">
                                 <svg class="tech-img">
                                     <use href="./images/symbol-defs.svg#icon-tech-svg3"></use>
@@ -87,7 +88,7 @@
                             <h3 class="tech-title">Планування</h3>
                             <p class="tech-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
-                        <li class="tech-item">
+                        <li class="tech-item" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="600">
                             <div class="tech-img-container">
                                 <svg class="tech-img">
                                     <use href="./images/symbol-defs.svg#icon-tech-svg4"></use>
@@ -132,7 +133,7 @@
                 <div class="container">
                     <h2 class="workers-title">Наша команда</h2>
                     <ul class="workers-list">
-                        <li class="workers-list-item">
+                        <li class="workers-list-item" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="0">
                                 <img class="workers-img" src="./images/worker-img1.png" alt="photo">
                                 <h3 class="workers-names">Ігор Дем'яненко</h3>
                                 <p class="workers-job">Product Designer</p>
@@ -168,7 +169,7 @@
                                     </li>
                                 </ul>
                         </li>
-                        <li class="workers-list-item">
+                        <li class="workers-list-item" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="200">
                                 <img class="workers-img" src="./images/worker-img2.png" alt="photo">
                                 <h3 class="workers-names">Ольга Рєпіна</h3>
                                 <p class="workers-job">Frontend Developer</p>
@@ -204,7 +205,7 @@
                                     </li>
                                 </ul>
                         </li>
-                        <li class="workers-list-item">
+                        <li class="workers-list-item" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="400">
                                 <img class="workers-img" src="./images/worker-img3.png" alt="photo">
                                 <h3 class="workers-names">Микола Тарасов</h3>
                                 <p class="workers-job">Marketing</p>
@@ -239,7 +240,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                        <li class="workers-list-item">
+                        <li class="workers-list-item" data-aos="flip-left" data-aos-duration="2500" data-aos-delay="600">
                                 <img class="workers-img" src="./images/worker-img4.png" alt="photo">
                                 <h3 class="workers-names">Михайло Єрмаков</h3>
                                 <p class="workers-job">UI Designer</p>
@@ -442,5 +443,9 @@
             </div>
         </div>
         <script src="./modal.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body> 
 </html>
