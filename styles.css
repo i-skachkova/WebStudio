@@ -172,6 +172,7 @@ header .container{
     animation-name: button-animation;
     animation-iteration-count: infinite;
     animation-duration: 5000ms;
+    animation-delay: 3000ms;
 } 
 .hero-button:hover, .hero-button:focus{
     background-color: #188CE8;
